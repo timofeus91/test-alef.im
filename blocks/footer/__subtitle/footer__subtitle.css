@@ -1,0 +1,10 @@
+
+.footer__subtitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 26px;
+    color: rgb(255, 255, 255);
+    margin: 26px 0 0;
+    padding: 0;
+}

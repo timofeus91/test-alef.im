@@ -22,3 +22,7 @@
     opacity: 0.6;
     transition: opacity 0.5s;
 }
+
+.elements__item-button:active {
+    background-color: rgb(67, 196, 31);
+}

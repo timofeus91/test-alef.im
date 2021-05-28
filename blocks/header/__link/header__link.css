@@ -13,3 +13,7 @@
     transition: opacity 0.5s;
 
 }
+
+.header__link:active {
+    color: rgb(67, 196, 31);
+}

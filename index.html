@@ -51,11 +51,11 @@
       <section class="sorting page__sorting">
           <p class="sorting__subtitle">Сортировать по:</p>
           <div class="sorting__about-container">
-            <button class="sorting__button">Цене</button>
+            <button type="button" class="sorting__button">Цене</button>
             <img class="sorting__image" src="./images/right-arrow-up.png" alt="Стрелочка">
           </div>
           <div class="sorting__about-container">
-            <button class="sorting__button">Возрасту</button>
+            <button type="button" class="sorting__button">Возрасту</button>
             <img class="sorting__image" src="./images/right-arrow-up.png" alt="Стрелочка">
           </div>
       </section>
@@ -65,7 +65,7 @@
           <li class="elements__item">
             <div class="elements__item-image-container">
               <img class="elements__item-image" src="./images/cat1.png" alt="Фото котика">
-              <button class="elements__item-like"></button>
+              <button type="button" class="elements__item-like"></button>
               <p class="elements__item-sale">-40%</p>
             </div>
             
@@ -86,13 +86,13 @@
 
             <h2 class="elements__item-title">30 000 руб.</h3>
 
-            <button class="elements__item-button">Купить</button>
+            <button type="button" class="elements__item-button">Купить</button>
           </li>
 
           <li class="elements__item">
             <div class="elements__item-image-container">
               <img class="elements__item-image" src="./images/cat2.png" alt="Фото котика">
-              <button class="elements__item-like"></button>
+              <button type="button" class="elements__item-like"></button>
               <p class="elements__item-sale">-40%</p>
             </div>
 
@@ -113,13 +113,13 @@
 
             <h2 class="elements__item-title">30 000 руб.</h3>
               
-            <button class="elements__item-button">Купить</button>
+            <button type="button" class="elements__item-button">Купить</button>
           </li>
 
           <li class="elements__item">
             <div class="elements__item-image-container">
               <img class="elements__item-image" src="./images/cat1.png" alt="Фото котика">
-              <button class="elements__item-like"></button>
+              <button type="button" class="elements__item-like"></button>
               <p class="elements__item-sale">-40%</p>
             </div>
 
@@ -140,13 +140,13 @@
 
             <h2 class="elements__item-title">30 000 руб.</h3>
               
-            <button class="elements__item-button">Купить</button>
+            <button type="button" class="elements__item-button">Купить</button>
           </li>
 
           <li class="elements__item">
             <div class="elements__item-image-container">
               <img class="elements__item-image" src="./images/cat2.png" alt="Фото котика">
-              <button class="elements__item-like"></button>
+              <button type="button" class="elements__item-like"></button>
               <p class="elements__item-sale">-40%</p>
             </div>
 
@@ -167,13 +167,13 @@
 
             <h2 class="elements__item-title">30 000 руб.</h3>
               
-            <button class="elements__item-button">Купить</button>
+            <button type="button" class="elements__item-button">Купить</button>
           </li>
 
           <li class="elements__item">
             <div class="elements__item-image-container">
               <img class="elements__item-image" src="./images/cat1.png" alt="Фото котика">
-              <button class="elements__item-like"></button>
+              <button type="button" class="elements__item-like"></button>
               <p class="elements__item-sale">-40%</p>
             </div>
 
@@ -194,13 +194,13 @@
 
             <h2 class="elements__item-title">30 000 руб.</h3>
               
-            <button class="elements__item-button">Купить</button>
+            <button type="button" class="elements__item-button">Купить</button>
           </li>
 
           <li class="elements__item">
             <div class="elements__item-image-container">
               <img class="elements__item-image" src="./images/cat3.jpeg" alt="Фото котика">
-              <button class="elements__item-like"></button>
+              <button type="button" class="elements__item-like"></button>
             </div>
 
             <h2 class="elements__item-title">Бэтмен</h2>
@@ -220,27 +220,32 @@
 
             <h2 class="elements__item-title">30 000 руб.</h3>
               
-            <button class="elements__item-button">Купить</button>
+            <button type="button" class="elements__item-button">Купить</button>
           </li>
         </ul>
       </section>
 
-      <section class="extra-buttons">
-        <div class="extra-buttons__container">
-          <button class="extra-buttons__show-more-list">Показать ещё 20</button>
-          <button class="extra-buttons__view-up"></button>
-        </div>
+      <section class="extra-buttons page__extra-buttons">
+          <button type="button" class="extra-buttons__show-more-list">Показать ещё 20</button>
+          <button type="button" class="extra-buttons__view-up"></button>
       </section>
     </main>
     
-    <footer class="footer">
+    <footer class="footer page__footer">
 
       <div class="footer__text-container">
         <h3 class="footer__title">Успей купить!</h3>
         <p class="footer__subtitle">Подпишись и успей словить все акции</p>
       </div>
 
-      <div class="footer__form-container"></div>
+      <form class="footer__form-container">
+        <input type="email" placeholder="Email" class="footer__form-input">
+        <button type="submit" class="footer__form-submit">подписаться</button>
+        <label class="footer__form-label">
+          <input type="checkbox" class="footer__form-checkbox">
+          <span class="footer__form-span-text">Подписаться на новости</span>
+        </label>
+      </form>
       
     </footer>
   </div>

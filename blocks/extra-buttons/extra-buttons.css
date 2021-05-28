@@ -1,0 +1,7 @@
+
+.extra-buttons {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    max-width: 1280px;
+}

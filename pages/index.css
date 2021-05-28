@@ -42,10 +42,19 @@
 @import url('../blocks/elements/__item-text-bold/elements__item-text-bold.css');
 @import url('../blocks/elements/__item-text/_first/elements__item-text_first.css');
 @import url('../blocks/elements/__item-text-container/_second/elements__item-text-container_second.css');
+@import url('../blocks/elements/__item-button/_noactive/elements__item-button_noactive.css');
+@import url('../blocks/elements/__item-like/_active/elements__item-like_active.css');
 
-@import url('../blocks/extra-buttons/__container/extra-buttons__container.css');
+@import url('../blocks/extra-buttons/extra-buttons.css');
 @import url('../blocks/extra-buttons/__show-more-list/extra-buttons__show-more-list.css');
 @import url('../blocks/extra-buttons/__view-up/extra-buttons__view-up.css');
 
 @import url('../blocks/page/__sorting/page__sorting.css');
 @import url('../blocks/page/__elements/page__elements.css');
+@import url('../blocks/page/__extra-buttons/page__extra-buttons.css');
+@import url('../blocks/page/__footer/page__footer.css');
+
+@import url('../blocks/footer/footer.css');
+@import url('../blocks/footer/__subtitle/footer__subtitle.css');
+@import url('../blocks/footer/__text-container/footer__text-container.css');
+@import url('../blocks/footer/__title/footer__title.css');

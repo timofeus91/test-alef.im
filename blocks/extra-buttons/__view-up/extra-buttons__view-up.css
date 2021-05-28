@@ -1,0 +1,23 @@
+
+.extra-buttons__view-up {
+    width: 59px;
+    height: 59px;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    background-image: url('../../../images/button-view-up.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    border: none;
+    background-color: rgb(110, 187, 211);
+    cursor: pointer;
+}
+
+.extra-buttons__view-up:hover {
+    opacity: 0.5;
+    transition: opacity 0.5s;
+}
+
+.extra-buttons__view-up:active {
+    background-color: rgb(67, 196, 31);
+}
