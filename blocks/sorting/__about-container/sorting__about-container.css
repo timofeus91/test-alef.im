@@ -1,0 +1,9 @@
+
+.sorting__about-container {
+    margin: 0 0 0 48px;
+    padding: 0;
+}
+
+.sorting__about-container:last-child {
+    margin-left: 55px;
+}

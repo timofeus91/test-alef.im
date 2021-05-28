@@ -1,11 +1,12 @@
 @import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
 
 @import url('../blocks/all-content/all-content.css');
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__container/header__container.css');
-@import url('../blocks/header/__extra-text-subtitle/');
-@import url('../blocks/header/__extra-text-title/');
+@import url('../blocks/header/__extra-text-subtitle/header__extra-text-subtitle.css');
+@import url('../blocks/header/__extra-text-title/header__extra-text-title.css');
 @import url('../blocks/header/__extra-text/header__extra-text.css');
 @import url('../blocks/header/__link/header__link.css');
 @import url('../blocks/header/__links-container/header__links-container.css');
@@ -16,10 +17,10 @@
 @import url('../blocks/header/__main-container/header__main-container.css');
 @import url('../blocks/header/__title/header__title.css');
 
+@import url('../blocks/sorting/sorting.css');
 @import url('../blocks/sorting/__about-container/sorting__about-container.css');
 @import url('../blocks/sorting/__button/sorting__button.css');
 @import url('../blocks/sorting/__image/sorting__image.css');
-@import url('../blocks/sorting/__main-container/sorting__main-container.css');
 @import url('../blocks/sorting/__subtitle/sorting__subtitle.css');
 
 @import url('../blocks/elements/__item-about-container/elements__item-about-container.css');
@@ -42,4 +43,4 @@
 @import url('../blocks/extra-buttons/__show-more-list/extra-buttons__show-more-list.css');
 @import url('../blocks/extra-buttons/__view-up/extra-buttons__view-up.css');
 
-
+@import url('../blocks/page/__sorting/page__sorting.css');

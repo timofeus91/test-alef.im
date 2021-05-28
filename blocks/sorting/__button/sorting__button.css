@@ -1,0 +1,16 @@
+
+.sorting__button {
+    border: none;
+    background-color: transparent;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    color: rgb(0, 0, 0);
+
+}
+
+.sorting__button:hover {
+    opacity: 0.6;
+    transition: opacity 0.5s;
+}
