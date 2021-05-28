@@ -4,14 +4,42 @@
 
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__container/header__container.css');
-@import url('../blocks/header/__extra-text-subtitle/header__extra-text-subtitle.css');
-@import url('../blocks/header/__extra-text-title/header__extra-text-title.css');
+@import url('../blocks/header/__extra-text-subtitle/');
+@import url('../blocks/header/__extra-text-title/');
 @import url('../blocks/header/__extra-text/header__extra-text.css');
 @import url('../blocks/header/__link/header__link.css');
+@import url('../blocks/header/__links-container/header__links-container.css');
 @import url('../blocks/header/__links-item/header__links-item.css');
 @import url('../blocks/header/__links-list/header__links-list.css');
 @import url('../blocks/header/__links/header__links.css');
 @import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__main-container/header__main-container.css');
 @import url('../blocks/header/__title/header__title.css');
+
+@import url('../blocks/sorting/__about-container/sorting__about-container.css');
+@import url('../blocks/sorting/__button/sorting__button.css');
+@import url('../blocks/sorting/__image/sorting__image.css');
+@import url('../blocks/sorting/__main-container/sorting__main-container.css');
+@import url('../blocks/sorting/__subtitle/sorting__subtitle.css');
+
+@import url('../blocks/elements/__item-about-container/elements__item-about-container.css');
+@import url('../blocks/elements/__item-button/elements__item-button.css');
+@import url('../blocks/elements/__item-image-container/elements__item-image-container.css');
+@import url('../blocks/elements/__item-image/elements__item-image.css');
+@import url('../blocks/elements/__item-like/elements__item-like.css');
+@import url('../blocks/elements/__item-rectangle/elements__item-rectangle.css');
+@import url('../blocks/elements/__item-sale/elements__item-sale.css');
+@import url('../blocks/elements/__item-text-container/elements__item-text-container.css');
+@import url('../blocks/elements/__item-text/elements__item-text.css');
+@import url('../blocks/elements/__item-title/elements__item-title.css');
+@import url('../blocks/elements/__item/elements__item.css');
+@import url('../blocks/elements/__list/elements__list.css');
+@import url('../blocks/elements/__other-buttons/elements__other-buttons.css');
+@import url('../blocks/elements/__show-more-list/elements__show-more-list.css');
+@import url('../blocks/elements/elements__view-up/elements__view-up.css');
+
+@import url('../blocks/extra-buttons/__container/extra-buttons__container.css');
+@import url('../blocks/extra-buttons/__show-more-list/extra-buttons__show-more-list.css');
+@import url('../blocks/extra-buttons/__view-up/extra-buttons__view-up.css');
 
 
