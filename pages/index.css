@@ -66,7 +66,10 @@
 @import url('../blocks/footer/__form-fake-span/footer__form-fake-span.css');
 @import url('../blocks/footer/__form-flex/footer__form-flex.css');
 @import url('../blocks/footer/__form-flex/_bottom-place/footer__form-flex_bottom-place.css');
+@import url('../blocks/footer/__input-container/footer__inpur-container.css');
 @import url('../blocks/footer/__form-input/_error/footer__form-input_error.css');
+@import url('../blocks/footer/__span-error/footer__span-error.css');
+@import url('../blocks/footer/__span-error/_active/footer__span-error_active.css');
 
 @import url('../blocks/popup/popup.css');
 @import url('../blocks/popup/__title/popup__title.css');

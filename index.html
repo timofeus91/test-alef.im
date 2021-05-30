@@ -240,7 +240,10 @@
 
       <form class="footer__form" novalidate>
         <div class="footer__form-flex">
-          <input type="email" placeholder="Email" class="footer__form-input">
+          <div class="footer__input-container">
+            <input type="email" placeholder="Email" class="footer__form-input" id="footer-form-input">
+            <span class="footer__span-error" id="footer-form-input-error"></span>
+          </div>
           <button type="submit" class="footer__form-submit">подписаться</button>
         </div>
         <div class="footer__form-flex footer__form-flex_bottom-place">

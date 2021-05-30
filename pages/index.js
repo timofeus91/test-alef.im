@@ -25,39 +25,7 @@ const closePopupCat = document.getElementById('popup-cat-close')
 
 const formElement = document.querySelector('.footer__form');
 const formInput = formElement.querySelector('.footer__form-input');
-
-// Функция, которая добавляет класс с ошибкой
-const showInputError = (element) => {
-    element.classList.add('footer__form-input_error');
-  };
-  
-  // Функция, которая удаляет класс с ошибкой
-  const hideInputError = (element) => {
-    element.classList.remove('footer__form-input_error');
-  };
-  
-  // Функция, которая проверяет валидность поля
-  const isValid = () => {
-    if (!formInput.validity.valid) {
-      // Если поле не проходит валидацию, покажем ошибку
-      showInputError(formInput);
-    } else {
-      // Если проходит, скроем
-      hideInputError(formInput);
-    }
-  };
-  
-   //отмена поведения по умолчанию у кнопки submit 
-  formElement.addEventListener('submit', function (evt) {
-        evt.preventDefault();
-  });
-  
-  // Вызовем функцию isValid на каждый ввод символа
-  formInput.addEventListener('input', isValid); 
-
-
-  
-
+const formError = formElement.querySelector('.footer__span-error'); 
 
 
 //функция по сортировке
@@ -122,6 +90,29 @@ function backToTop() {
     }
   }
 
+  // функция по показу ошибки
+const showInputError = (element) => {
+    element.classList.add('footer__form-input_error');
+    formError.textContent = 'Введите корректный адрес email';
+    formError.classList.add('footer__span-error_active');
+  };
+
+  //функция по удалению ошибки
+  const hideInputError = (element) => {
+    element.classList.remove('footer__form-input_error');
+    formError.classList.remove('footer__span-error_active');
+    formError.textContent = '';
+  };
+
+  //функция по проверке валидности
+  const isValid = () => {
+    if (!formInput.validity.valid) {
+      showInputError(formInput);
+    } else {
+      hideInputError(formInput);
+    }
+  };
+
 //вызов функций
 changeButtonElement();
 changeLikeElement();
@@ -145,3 +136,11 @@ ageButton.addEventListener("click", function() {
 closePopupCat.addEventListener("click", function() {
     popupCat.classList.remove('popup_opened');
 })
+  
+   //отмена поведения по умолчанию у кнопки submit 
+  formElement.addEventListener('submit', function (evt) {
+        evt.preventDefault();
+  });
+  
+  // Вызовем функцию isValid на каждый ввод символа
+  formInput.addEventListener('input', isValid); 
