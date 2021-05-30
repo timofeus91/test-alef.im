@@ -1,0 +1,12 @@
+
+.footer__form-checkbox {
+    display: none;
+    
+}
+
+.footer__form-checkbox:checked + .footer__form-fake-span::before {
+    background-color: rgb(110, 187, 211);
+    background-image: url('../../../images/check-vector.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+}

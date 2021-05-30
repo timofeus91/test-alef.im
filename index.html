@@ -238,13 +238,18 @@
         <p class="footer__subtitle">Подпишись и успей словить все акции</p>
       </div>
 
-      <form class="footer__form-container">
-        <input type="email" placeholder="Email" class="footer__form-input">
-        <button type="submit" class="footer__form-submit">подписаться</button>
-        <label class="footer__form-label">
-          <input type="checkbox" class="footer__form-checkbox">
-          <span class="footer__form-span-text">Подписаться на новости</span>
-        </label>
+      <form class="footer__form">
+        <div class="footer__form-flex">
+          <input type="email" placeholder="Email" class="footer__form-input">
+          <button type="submit" class="footer__form-submit">подписаться</button>
+        </div>
+        <div class="footer__form-flex footer__form-flex_bottom-place">
+          <label class="footer__form-label">
+            <input type="checkbox" class="footer__form-checkbox">
+            <span class="footer__form-fake-span"></span>
+            <span class="footer__form-span-text">Подписаться на новости</span>
+          </label>
+        </div>
       </form>
       
     </footer>

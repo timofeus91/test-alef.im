@@ -1,0 +1,25 @@
+
+.footer__form-submit {
+    margin: 0 0 0 20px;
+    width: 270px;
+    height: 65px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(110, 187, 211);
+    cursor: pointer;
+}
+
+.footer__form-submit:hover {
+    opacity: 0.8;
+    transition: opacity 0.5s;
+
+}
+
+.footer__form-submit:active {
+    background-color: rgb(67, 196, 31);
+}

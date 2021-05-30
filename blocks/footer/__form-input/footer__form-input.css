@@ -1,0 +1,20 @@
+
+.footer__form-input {
+    width: 287px;
+    height: 65px;
+    text-align: left;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border: none;
+    padding: 0 0 0 33px;
+    
+}
+
+.footer__form-input::placeholder {
+    color: rgb(0, 0, 0);
+    
+}
