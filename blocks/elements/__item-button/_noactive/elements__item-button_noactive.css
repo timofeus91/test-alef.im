@@ -4,3 +4,8 @@
     cursor: none;
     
 }
+
+.elements__item-button_noactive:hover {
+    opacity: 1;
+    
+}

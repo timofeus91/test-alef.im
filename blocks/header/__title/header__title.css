@@ -12,3 +12,28 @@
     color: rgb(255, 255, 255);
 }
 
+
+@media screen and (max-width: 900px) {
+    .header__title{
+       padding-bottom: 0px;
+       font-size: 34px;
+       line-height: 40px;
+       margin-left: 15px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .header__title{
+        font-size: 30px;
+        line-height: 36px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .header__title{
+        font-size: 26px;
+        line-height: 30px;
+        
+    }
+}

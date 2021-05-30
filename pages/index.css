@@ -65,4 +65,5 @@
 @import url('../blocks/footer/__title/footer__title.css');
 @import url('../blocks/footer/__form-label/footer__form-label.css');
 @import url('../blocks/footer/__form-fake-span/footer__form-fake-span.css');
+@import url('../blocks/footer/__form-flex/footer__form-flex.css');
 @import url('../blocks/footer/__form-flex/_bottom-place/footer__form-flex_bottom-place.css');

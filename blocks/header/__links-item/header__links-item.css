@@ -7,3 +7,30 @@
 .header__links-item:first-child {
     margin: 0;
 }
+
+@media screen and (max-width: 900px) {
+    .header__links-item{
+       margin-left: 80px;
+    }
+}
+
+
+@media screen and (max-width: 710px) {
+    .header__links-item{
+       margin-left: 40px;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .header__links-item{
+       margin-left: 20px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .header__links-item{
+       margin-left: 15px;
+    }
+}
+

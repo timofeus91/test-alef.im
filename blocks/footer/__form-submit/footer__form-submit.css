@@ -1,6 +1,7 @@
 
 .footer__form-submit {
-    margin: 0 0 0 20px;
+    margin: 0 0 0 15px;
+    padding: 0;
     width: 270px;
     height: 65px;
     font-style: normal;
@@ -22,4 +23,54 @@
 
 .footer__form-submit:active {
     background-color: rgb(67, 196, 31);
+}
+
+@media screen and (max-width: 1279px) {
+    .footer__form-submit{
+        width: 170px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .footer__form-submit{
+       margin: 15px 0 0 0;
+       width: 223px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .footer__form-submit{
+        width: 180px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+    .footer__form-submit{
+        width: 140px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__form-submit{
+        width: 200px;
+        height: 65px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .footer__form-submit{
+        width: 170px;
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 410px) {
+    .footer__form-submit{
+        width: 220px;
+        height: 50px;
+        margin-top: 15px;
+    }
 }

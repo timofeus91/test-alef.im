@@ -8,3 +8,18 @@
     line-height: 29px;
     color: rgb(255, 255, 255);
 }
+
+
+@media screen and (max-width: 500px) {
+    .header__extra-text-title{
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .header__extra-text-title{
+        font-size: 16px;
+        line-height: 21px;
+    }
+}

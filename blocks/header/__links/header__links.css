@@ -3,3 +3,28 @@
     margin: 0 0 0 120px;
     padding: 0;
 }
+
+
+@media screen and (max-width: 900px) {
+    .header__links{
+       margin-left: 170px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .header__links{
+       margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .header__links{
+       margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .header__links{
+       margin-left: 40px;
+    }
+}

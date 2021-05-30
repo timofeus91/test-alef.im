@@ -24,3 +24,9 @@
 .extra-buttons__show-more-list:active {
     background-color: rgb(67, 196, 31);
 }
+
+@media screen and (max-width: 470px) {
+    .extra-buttons__show-more-list{
+        width: 310px;
+    }
+}

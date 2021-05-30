@@ -6,3 +6,15 @@
     padding: 0;
     max-width: 370px;
 }
+
+@media screen and (max-width: 800px) {
+    .footer__text-container{
+        margin-left: 60px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer__text-container{
+        margin: 50px auto 0;
+    }
+}

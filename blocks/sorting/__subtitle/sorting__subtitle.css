@@ -8,3 +8,18 @@
     line-height: 22px;
     color: rgb(0, 0, 0);
 }
+
+@media screen and (max-width: 500px) {
+    .sorting__subtitle {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .sorting__subtitle {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
+

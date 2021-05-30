@@ -7,3 +7,16 @@
 .sorting__about-container:last-child {
     margin-left: 55px;
 }
+
+
+@media screen and (max-width: 500px) {
+    .sorting__about-container {
+        margin-left: 30px;
+    }
+}
+
+@media screen and (max-width: 330px) {
+    .sorting__about-container {
+        margin-left: 20px;
+    }
+}

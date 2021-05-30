@@ -4,4 +4,20 @@
     display: flex;
     justify-content: center;
     max-width: 1280px;
+    
+}
+
+@media screen and (max-width: 620px) {
+    .extra-buttons{
+        position: static;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 400px;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .extra-buttons{
+        max-width: 310px;
+    }
 }

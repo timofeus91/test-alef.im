@@ -11,6 +11,8 @@
     border: none;
     background-color: rgb(110, 187, 211);
     cursor: pointer;
+    margin: 0;
+    padding: 0;
 }
 
 .extra-buttons__view-up:hover {
@@ -20,4 +22,17 @@
 
 .extra-buttons__view-up:active {
     background-color: rgb(67, 196, 31);
+}
+
+@media screen and (max-width: 1279px) {
+    .extra-buttons__view-up{
+        right: 20px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .extra-buttons__view-up{
+        position: static;
+        margin-top: 10px;
+    }
 }

@@ -4,3 +4,15 @@
     max-width: 1280px;
     display: flex;
 }
+
+@media screen and (max-width: 1279px) {
+    .footer{
+        max-width: 928px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .footer{
+        flex-direction: column;
+    }
+}
