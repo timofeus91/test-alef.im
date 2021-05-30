@@ -14,18 +14,56 @@ const allPrice = '.elements__item-title_cost';
 const allElements = document.querySelectorAll('.elements__item');
 
 const allButtonElements = document.querySelectorAll('.elements__item-button');
-const allLikeElements = document.querySelectorAll('.elements__item-like')
+const allLikeElements = document.querySelectorAll('.elements__item-like');
 
 const elementsContainer = document.querySelector('.elements__list');
 
 const viewUp = document.querySelector('.extra-buttons__view-up');
+
+const popupCat = document.getElementById('popup-cat');
+const closePopupCat = document.getElementById('popup-cat-close')
+
+const formElement = document.querySelector('.footer__form');
+const formInput = formElement.querySelector('.footer__form-input');
+
+// Функция, которая добавляет класс с ошибкой
+const showInputError = (element) => {
+    element.classList.add('footer__form-input_error');
+  };
+  
+  // Функция, которая удаляет класс с ошибкой
+  const hideInputError = (element) => {
+    element.classList.remove('footer__form-input_error');
+  };
+  
+  // Функция, которая проверяет валидность поля
+  const isValid = () => {
+    if (!formInput.validity.valid) {
+      // Если поле не проходит валидацию, покажем ошибку
+      showInputError(formInput);
+    } else {
+      // Если проходит, скроем
+      hideInputError(formInput);
+    }
+  };
+  
+   //отмена поведения по умолчанию у кнопки submit 
+  formElement.addEventListener('submit', function (evt) {
+        evt.preventDefault();
+  });
+  
+  // Вызовем функцию isValid на каждый ввод символа
+  formInput.addEventListener('input', isValid); 
+
+
+  
 
 
 
 //функция по сортировке
 function sortCard(elements, type) {
     let sortingObj = {};
-    elements.forEach(function(element, index) {
+    elements.forEach((element, index) => {
         const elementValue = parseInt(element.querySelector(type).textContent.replace('руб.', '').replace(/\s+/g, ''));
         sortingObj[elementValue] = {'element': element, 'index': index};
     });
@@ -47,7 +85,7 @@ function sortCard(elements, type) {
 
 //функция по изменению кнопки в элементе
 function changeButtonElement() {
-    allButtonElements.forEach(function(element) {
+    allButtonElements.forEach((element) => {
         element.addEventListener("click", function() {
             if (element.textContent === 'Купить') {
                 element.textContent = 'Продан';
@@ -66,14 +104,17 @@ function changeButtonElement() {
 
 //функция по управлению кнопки лайка
 function changeLikeElement() {
-    allLikeElements.forEach(function(element) {
+    allLikeElements.forEach((element) => {
         element.addEventListener("click", function() {
             element.classList.toggle('elements__item-like_active');
+            popupCat.classList.add('popup_opened');
 
         })
     })
+    
 }
 
+//функция для "пролистывания" вверх
 function backToTop() {
     if (window.pageYOffset > 0) {
       window.scrollBy(0, -80);
@@ -81,9 +122,12 @@ function backToTop() {
     }
   }
 
+//вызов функций
 changeButtonElement();
 changeLikeElement();
 
+
+//слушатели событий 
 viewUp.addEventListener("click", backToTop);
 
 costButton.addEventListener("click", function() {
@@ -98,3 +142,6 @@ ageButton.addEventListener("click", function() {
     costArrow.src="./images/right-arrow-up.png";
 })
 
+closePopupCat.addEventListener("click", function() {
+    popupCat.classList.remove('popup_opened');
+})

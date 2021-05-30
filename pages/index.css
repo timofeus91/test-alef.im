@@ -20,7 +20,6 @@
 @import url('../blocks/sorting/sorting.css');
 @import url('../blocks/sorting/__about-container/sorting__about-container.css');
 @import url('../blocks/sorting/__button/sorting__button.css');
-@import url('../blocks/sorting/__image/sorting__image.css');
 @import url('../blocks/sorting/__subtitle/sorting__subtitle.css');
 
 @import url('../blocks/elements/elements.css');
@@ -67,3 +66,9 @@
 @import url('../blocks/footer/__form-fake-span/footer__form-fake-span.css');
 @import url('../blocks/footer/__form-flex/footer__form-flex.css');
 @import url('../blocks/footer/__form-flex/_bottom-place/footer__form-flex_bottom-place.css');
+@import url('../blocks/footer/__form-input/_error/footer__form-input_error.css');
+
+@import url('../blocks/popup/popup.css');
+@import url('../blocks/popup/__title/popup__title.css');
+@import url('../blocks/popup/__close/popup__close.css');
+@import url('../blocks/popup/_opened/popup_opened.css');

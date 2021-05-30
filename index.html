@@ -238,7 +238,7 @@
         <p class="footer__subtitle">Подпишись и успей словить все акции</p>
       </div>
 
-      <form class="footer__form">
+      <form class="footer__form" novalidate>
         <div class="footer__form-flex">
           <input type="email" placeholder="Email" class="footer__form-input">
           <button type="submit" class="footer__form-submit">подписаться</button>
@@ -253,6 +253,13 @@
       </form>
       
     </footer>
+
+    <section class='popups'>
+      <div class="popup" id="popup-cat">
+        <p class="popup__title">Котик в избранном!</p>
+        <button type="button" class="popup__close" id="popup-cat-close"></button>
+      </div>
+    </section>
   </div>
     <script src="./pages/index.js"></script>
 </body>
